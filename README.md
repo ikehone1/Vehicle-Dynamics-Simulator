@@ -31,8 +31,7 @@ and vehicle response to road inputs.
   - Front/rear suspension deflection
   - Weight transfer effects
 - Current focus:
-  - Numerical stability
-  - Validation of pitch inertia (Iyy)
+  - Implementing Backwards Euler's Method to make the model work with larger timesteps.
   - Road input expansion (random profiles)
 
 ---
