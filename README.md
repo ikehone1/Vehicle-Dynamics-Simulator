@@ -23,16 +23,21 @@ and vehicle response to road inputs.
   - Tire deflection
   - Energy response
 
-### Half-Car Model (In Progress)
+### Half-Car Model
 - 4+ DOF model including pitch dynamics
 - Front and rear suspension modeled independently
+- Solved using 4th-order Runge-Kutta (RK4)
 - Includes:
   - Pitch angle and angular velocity
   - Front/rear suspension deflection
   - Weight transfer effects
-- Current focus:
-  - Implementing Backwards Euler's Method to make the model work with larger timesteps.
-  - Road input expansion (random profiles)
+  - Random road input
+- Outputs:
+  - Car Cab and Wheel Positions
+  - Vehicle Pitch angle
+  - Road Input(bumps)
+ 
+### Full Vehicle Model (In progress)
 
 ---
 
